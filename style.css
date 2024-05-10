@@ -96,3 +96,11 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 }
+footer{
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	position: absolute;
+	bottom: 0;
+}

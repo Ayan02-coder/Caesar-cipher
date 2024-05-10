@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caesar Cipher</title>
+<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+<h1>Caesar Cipher</h1>
+
+<div class="container">
+    <div class="section">
+        <div class="input">
+            <h3>Encryption</h3>
+		<div class="emsg">
+            <p>Enter the message:</p>
+            <textarea id="encryption-message" rows="4" cols="50"></textarea>
+            <p>Enter the shift amount (between 1 and 25):</p>
+            <input type="number" id="encryption-shift-amount" min="1" max="25" value="3">
+			<div class="btns">
+				<button onclick="encrypt()">Encrypt</button>
+				<button onclick="clearEncryption()">Clear</button>
+			</div>
+        </div>
+		</div>
+
+        <div class="output">
+            <p>Encrypted Message:</p>
+            <textarea id="encrypted-message" rows="4" cols="50" readonly></textarea>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="input">
+            <h3>Decryption</h3>
+		<div class="emsg">
+            <p>Enter the encrypted message:</p>
+            <textarea id="decryption-message" rows="4" cols="50"></textarea>
+            <p>Enter the shift amount (between 1 and 25):</p>
+            <input type="number" id="decryption-shift-amount" min="1" max="25" value="3">
+			<div class="btns">
+				<button onclick="decrypt()">Decrypt</button>
+				<button onclick="clearDecryption()">Clear</button>
+			</div>
+        </div>
+		</div>
+
+        <div class="output">
+            <p>Decrypted Message:</p>
+            <textarea id="decrypted-message" rows="4" cols="50" readonly></textarea>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"> </script>
+
+</body>
+</html>

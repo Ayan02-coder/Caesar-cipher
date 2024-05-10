@@ -4,7 +4,7 @@ This web-based tool allows you to encrypt and decrypt messages using the Caesar 
 
 ## How to Use
 
-1. Open the (https://ceasar-cipher-nss.netlify.app) in your web browser.
+1. Open the (https://caesar-cipher-nss.netlify.app) in your web browser.
 2. Enter your message and select a shift amount (between 1 and 25) for encryption.
 3. Click the "Encrypt" button to encrypt your message.
 4. Your encrypted message will appear in the "Encrypted Message" textarea.
